@@ -1,4 +1,4 @@
-def rectangle_area(a, b):
+
     """
     Calculates the area of a rectangle given its side lengths
 
@@ -8,4 +8,7 @@ def rectangle_area(a, b):
     :raises ValueError: if either number was negative
     """
     
-    pass
+   def rectangle_area(a, b):
+  if a<0 or b<0:
+    raise ValueError("if either number was negative")
+  return a*b
